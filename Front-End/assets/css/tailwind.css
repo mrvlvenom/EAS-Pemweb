@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body {@apply box-border bg-gradient-to-b from-[#002864] to-[#006F9E] text-[14px] text-white} */
+body {@apply box-border bg-gradient-to-b from-[#d9d9d9] to-[#bcbcbc] text-[14px] text-white}
+* {@apply m-0 p-0}
+
+@layer components {    
+    .custom-input {@apply w-[247px] h-[50px] text-[12px] text-[#B9B9B9] text-center rounded-full placeholder:text-center outline-none}
+    .login-btn {@apply inline-block border-none rounded-full w-[247px] h-[50px] text-[12px] uppercase font-bold bg-white text-[#004D94] text-center}
+    .large-header {@apply text-[80px] font-extrabold}
+    .medium-header {@apply text-[24px] font-bold}
+    .body-text {@apply text-[12px]}
+    .container {@apply md:m-4 my-2 p-3 md:rounded-lg shadow-lg w-full}
+    .nav-icon {@apply h-10 w-10 hover:bg-[#006f9e32] rounded-[50%] text-[20px] text-[#006F9E] flex items-center justify-center mx-2}
+    .pi {@apply flex justify-between w-full}
+}
